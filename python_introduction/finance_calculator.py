@@ -1,0 +1,6 @@
+user_income = int(input("Enter your monthly income:"))
+user_expense = int(input("Enter your total monthly expenses:"))
+user_saving = (user_income - user_expense)
+Projected_Savings = user_saving * 12 + (user_saving * 12 * 0.05)
+print(f"Your monthly savings are ${user_saving}.")
+print(f"Projected savings after one year, with interest, is: ${Projected_Savings}.")
