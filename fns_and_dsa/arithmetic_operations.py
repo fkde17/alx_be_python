@@ -7,17 +7,19 @@ def perform_operation(num1, num2, operation):
 
     match operation:
         case "add":
-            print(f"Result: {num1 + num2}")
+             return num1 + num2
         case "subtract":
-            print(f"Result: {num1 - num2}")
+            return num1 - num2
         case "multiply":
-            print(f"Result: {num1 * num2}")
+            return num1 * num2
         case "division":
             if num2 == 0:
-                print("Error: DIVISION BY ZERO")
-            else:
-                print(f"Result: {num1 / num2}")
+                return "Error: DIVISION BY ZERO"
+            elif num2!= 0:
+                return num1 / num2
 
-perform_operation(num1,num2,operation)
+result = perform_operation(num1,num2,operation)
+print(result)
+
 
 
