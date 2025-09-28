@@ -16,7 +16,7 @@ def perform_operation(num1, num2, operation):
             if num2 == 0:
                 print("Error: DIVISION BY ZERO")
             else:
-                print(f"Result: {num1 + num2}")
+                print(f"Result: {num1 / num2}")
 
 perform_operation(num1,num2,operation)
 
